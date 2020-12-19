@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Hello = () => {
+const Debouncer = () => {
   const [inputText, setInputState] = useState("");
   const handleInput = e => {
     setInputState(e.target.value);
@@ -21,11 +21,11 @@ const Hello = () => {
 
   return (
     <div>
-      {`hello, enterted text is ${inputText}`}
+      {`hello, enterted text is ${inputText}. Example of debounce`}
       <br />
       <input type="text" onChange={handleInput} />
     </div>
   );
 };
 
-export default Hello;
+export default Debouncer;
