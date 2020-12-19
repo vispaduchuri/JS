@@ -20,7 +20,6 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <Hello />
-        <p>Start editing to see some magic happen :)</p>
       </div>
     );
   }
